@@ -74,6 +74,12 @@ Simple_RPG/
    ```bash
    python Intro.py
    ```
+   On some systems you may need to use:
+   ```bash
+   python3 Intro.py
+   ```
+
+Note: The game should be run from inside the `Simple_RPG` folder. Running `python Intro.py` from that folder ensures the game can correctly find the `Art`, `Music`, and `SFX` folders.
 
 
 ## Gameplay Instructions
