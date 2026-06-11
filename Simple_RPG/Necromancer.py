@@ -45,7 +45,7 @@ class Necromancer:
         sliced into frames in a list
         """
         
-        sheet_path = os.path.join("Simple_RPG", "Art", "Enemies", "Necromancer.png")
+        sheet_path = os.path.join("Art", "Enemies", "Necromancer.png")
         sheet = Image.open(sheet_path).convert("RGBA")
         sheet_width, sheet_height = sheet.size
 
