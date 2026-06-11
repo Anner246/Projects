@@ -56,8 +56,14 @@ Simple_RPG/
 ## Installation
 
 1. **Clone or download this repository**
+   
+2. Go into the project folder:
 
-2. **Install required dependencies:**
+   ```bash
+   cd Simple_RPG
+   ```
+
+3. **Install required dependencies:**
 
    Open Command Prompt and run:
    ```
