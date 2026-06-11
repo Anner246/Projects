@@ -49,7 +49,7 @@ class NightBorne:
         sliced into frames in a list
         """
         
-        path = os.path.join("Simple_RPG", "Art", "Enemies", "NightBorne.png")
+        path = os.path.join("Art", "Enemies", "NightBorne.png")
         sheet = Image.open(path).convert("RGBA")
         sheet_width, sheet_height = sheet.size
 
