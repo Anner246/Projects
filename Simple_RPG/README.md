@@ -57,7 +57,7 @@ Simple_RPG/
 
 1. **Clone or download this repository**
    
-2. Go into the project folder:
+2. **Go into the project folder:**
 
    ```bash
    cd Simple_RPG
@@ -65,19 +65,14 @@ Simple_RPG/
 
 3. **Install required dependencies:**
 
-   Open Command Prompt and run:
-   ```
+   ```bash
    pip install arcade pillow
    ```
+   
+4. **Run the game:**
 
-
-## How to Run
-
-1. Open Command Prompt and navigate to the directory containing the project directory
-2. Run the main game file:
-
-   ```
-   python Simple_RPG\Intro.py
+   ```bash
+   python Intro.py
    ```
 
 
