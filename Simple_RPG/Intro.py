@@ -18,7 +18,7 @@ class Intro(arcade.View):
         
         super().__init__()
         # Load the image as a sprite
-        self.image_sprite = arcade.Sprite("Simple_RPG/Art/PAWN.png")
+        self.image_sprite = arcade.Sprite("Art/PAWN.png")
 
         # Position near bottom, under text
         self.image_sprite.center_x = SCREEN_WIDTH / 2
