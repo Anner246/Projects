@@ -136,7 +136,7 @@ This project was developed as a group project for an Introduction to Object Orie
 
 ## Credits
 
-Developed by: Anner, Isaac, Tiffany, Alexandra
+Developed by: Anner, Isaac
 
 
 ## License
