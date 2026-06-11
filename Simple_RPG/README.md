@@ -143,7 +143,10 @@ This project was developed as a group project for an Introduction to Object Orie
 
 ## Credits
 
-Developed by: Anner, Isaac
+Lead designer and concept: Isaac Ditoro
+Lead Programmer:           Anner Arevalo
+Lead Artist:               Anner Arevalo
+Lead Music/SFX designer    Anner Arevalo
 
 
 ## License
