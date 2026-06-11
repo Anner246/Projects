@@ -226,10 +226,10 @@ class MainScreen(arcade.View):
         self.music_volume = 0.5
         self.fade_speed = 1.5
         self.fade_delay = 0.05
-        self.overworld = "Simple_RPG/Music/Forest_Carnival.wav"
-        self.battle_music = "Simple_RPG/Music/battle.mp3"
-        self.shop = "Simple_RPG/Music/Shop.mp3"
-        self.win_music = "Simple_RPG/Music/Win.mp3"
+        self.overworld = "Music/Forest_Carnival.wav"
+        self.battle_music = "Music/battle.mp3"
+        self.shop = "Music/Shop.mp3"
+        self.win_music = "Music/Win.mp3"
 
         self.transition_active = False
         self.fade_direction = None
@@ -244,18 +244,18 @@ class MainScreen(arcade.View):
         # SFX
         self.current_sfx = None
         self.sfx_speed = 1
-        self.footsteps_sfx = arcade.load_sound("Simple_RPG/SFX/Footsteps.wav")
-        self.loot_sfx = arcade.load_sound("Simple_RPG/SFX/Loot.wav")
-        self.button_sfx = arcade.load_sound("Simple_RPG/SFX/Button.wav")
-        self.hit_sfx = arcade.load_sound("Simple_RPG/SFX/Hit.wav")
-        self.necromancer_attack_sfx = arcade.load_sound("Simple_RPG/SFX/necromancer_attack.wav")
-        self.necromancer_death_sfx = arcade.load_sound("Simple_RPG/SFX/necromancer_Death.wav")
-        self.special_sfx = arcade.load_sound("Simple_RPG/SFX/Special.wav")
-        self.Buy_Drop_sfx = arcade.load_sound("Simple_RPG/SFX/Buy_Drop.wav")
-        self.replenish_sfx = arcade.load_sound("Simple_RPG/SFX/Replenish.wav")
-        self.boss_death_sfx = arcade.load_sound("Simple_RPG/SFX/Boss_Death.wav")
-        self.debuff_sfx = arcade.load_sound("Simple_RPG/SFX/Debuff.wav")
-        self.nightBorne_attack_sfx = arcade.load_sound("Simple_RPG/SFX/NightBorne_Attack.wav")
+        self.footsteps_sfx = arcade.load_sound("SFX/Footsteps.wav")
+        self.loot_sfx = arcade.load_sound("SFX/Loot.wav")
+        self.button_sfx = arcade.load_sound("SFX/Button.wav")
+        self.hit_sfx = arcade.load_sound("SFX/Hit.wav")
+        self.necromancer_attack_sfx = arcade.load_sound("SFX/necromancer_attack.wav")
+        self.necromancer_death_sfx = arcade.load_sound("SFX/necromancer_Death.wav")
+        self.special_sfx = arcade.load_sound("SFX/Special.wav")
+        self.Buy_Drop_sfx = arcade.load_sound("SFX/Buy_Drop.wav")
+        self.replenish_sfx = arcade.load_sound("SFX/Replenish.wav")
+        self.boss_death_sfx = arcade.load_sound("SFX/Boss_Death.wav")
+        self.debuff_sfx = arcade.load_sound("SFX/Debuff.wav")
+        self.nightBorne_attack_sfx = arcade.load_sound("SFX/NightBorne_Attack.wav")
 
         
         # MISC STATE
@@ -466,7 +466,7 @@ class MainScreen(arcade.View):
         # Load room texture if it's not cached
         if art_title not in self.room_textures:
             self.room_textures[art_title] = arcade.load_texture(
-                f"Simple_RPG/Art/Room_Backgrounds/{art_title}.png"
+                f"Art/Room_Backgrounds/{art_title}.png"
             )
         self.room_texture = self.room_textures[art_title]
         
