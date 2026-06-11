@@ -56,6 +56,10 @@ Simple_RPG/
 ## Installation
 
 1. **Clone or download this repository**
+
+   ```bash
+   git clone https://github.com/Anner246/Projects.git
+   ```
    
 2. **Go into the project folder:**
 
