@@ -35,7 +35,7 @@ class BattleScreen:
 
         # ATTACK QTE STATE
         self.attack_animation_sprite= None
-        self.pie_sprite = arcade.load_texture("Simple_RPG/Art/Attack/Pie.png")
+        self.pie_sprite = arcade.load_texture("Art/Attack/Pie.png")
         self.pointer_sprite = None
         self.attack_animation_list = arcade.SpriteList()
         self.pointer_list = arcade.SpriteList()
@@ -98,7 +98,7 @@ class BattleScreen:
         self.dodge_bar_y = 0
         self.dodge_bar_left = 0
         self.dodge_bar_right = 0
-        self.dodge_bar_texture = arcade.load_texture("Simple_RPG/Art/Dodge/Bar.png")
+        self.dodge_bar_texture = arcade.load_texture("Art/Dodge/Bar.png")
         self.dodge_bar_width = self.dodge_bar_texture.width
         self.dodge_bar_height = self.dodge_bar_texture.height
 
@@ -108,7 +108,7 @@ class BattleScreen:
         self.pointer_moving = False
         self.dodge_delay_timer = 0
         self.dodge_start_delay = 0.5
-        self.dodge_pointer_texture = arcade.load_texture("Simple_RPG/Art/Attack/Pointer.png")
+        self.dodge_pointer_texture = arcade.load_texture("Art/Attack/Pointer.png")
         self.dodge_pointer_width = self.dodge_pointer_texture.width
         self.dodge_pointer_height = self.dodge_pointer_texture.height
         self.dodge_pointer_scale = 0.5
@@ -119,10 +119,10 @@ class BattleScreen:
         self.dodge_direction = None
         self.boss_attack_animation_played = False
         
-        self.dodge_down = arcade.load_texture("Simple_RPG/Art/Dodge/Down.png")
-        self.dodge_right = arcade.load_texture("Simple_RPG/Art/Dodge/Right.png")
-        self.dodge_up = arcade.load_texture("Simple_RPG/Art/Dodge/Up.png")
-        self.dodge_left = arcade.load_texture("Simple_RPG/Art/Dodge/Left.png")
+        self.dodge_down = arcade.load_texture("Art/Dodge/Down.png")
+        self.dodge_right = arcade.load_texture("Art/Dodge/Right.png")
+        self.dodge_up = arcade.load_texture("Art/Dodge/Up.png")
+        self.dodge_left = arcade.load_texture("Art/Dodge/Left.png")
         self.dodge_list = (self.dodge_down, self.dodge_right, self.dodge_up, self.dodge_left)
 
         # PLAYER BUFFS
