@@ -12,3 +12,12 @@ The minimum requirement was 7 tables with 15 rows of sample data per table. I ha
 
 ## Learning Expierence
 
+This database is not perfectly accurate, however, I will choose to include it here for a few reasons. There were a couple mistakes I made along the way due to inexpierence. Despite that the end result is functional and intuitive. This project has tuaght me a lot that I would not have learned just fulfilling the minimum requirements.
+
+I became very familiar with Excel, learning about power queries and lookup functions, how to save as comma seprated and double check with the notepad. I trained my to catch small details and fix any errors I found. By far the hardest part of this project was combing through and cleaning the data.
+
+Almost all of the mistakes I made I was able to fix later on in the process save for two. To normalize the database I made bridge tables such as IncidentAgency and IncidentVictim, which were created to support many-to-many relationships. While creating the sample views and queries I encountered an issue.
+
+Since the original data required extensive duplicate removal and transformation through power queries, non-unique text fields may have resulted in some logical ID assignments pointing to the first matching record instead of the most specific match.
+
+Although the database maintains
