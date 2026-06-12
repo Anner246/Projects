@@ -18,6 +18,10 @@ I became very familiar with Excel, learning about power queries and lookup funct
 
 Almost all of the mistakes I made I was able to fix later on in the process save for two. To normalize the database I made bridge tables such as IncidentAgency and IncidentVictim, which were created to support many-to-many relationships. While creating the sample views and queries I encountered an issue.
 
-Since the original data required extensive duplicate removal and transformation through power queries, non-unique text fields may have resulted in some logical ID assignments pointing to the first matching record instead of the most specific match.
+Since the original data required extensive duplicate removal and transformation through power queries, non-unique text fields may have resulted in some logical ID assignments pointing to the first matching record instead of the most specific match. This cuased key drifts to occur were some rows became misaligned
 
-Although the database maintains
+If I were to come back to this project I would rebuild the bridge table mappings using composite keys such as:
+Agency Name + State + County
+Victim Name + Age + Gender + Race
+
+After learning from my mistakes I feel confident I could complete it much more efficiently.
