@@ -21,7 +21,9 @@ Almost all of the mistakes I made I was able to fix later on in the process save
 Since the original data required extensive duplicate removal and transformation through power queries, non-unique text fields may have resulted in some logical ID assignments pointing to the first matching record instead of the most specific match. This cuased key drifts to occur were some rows became misaligned
 
 If I were to come back to this project I would rebuild the bridge table mappings using composite keys such as:
+
 Agency Name + State + County
+
 Victim Name + Age + Gender + Race
 
 After learning from my mistakes I feel confident I could complete it much more efficiently.
